@@ -1,0 +1,13 @@
+[project]
+name = "uwb-imu-and-lidar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "common>=0.1.2",
+    "matplotlib>=3.11.2",
+    "pynput>=1.8.2",
+    "pyserial>=3.5",
+    "sense-hat>=2.6.0",
+]
